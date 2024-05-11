@@ -1,13 +1,12 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 45px
-
+    padding: 0 45px;
     /*margin-top: 10px;*/
 }
 .mid-section{
     display: flex;
-    gap: 15px;
+    gap: 25px;
     font-weight: 500;
     font-size: 14px;
     justify-content: center;
@@ -19,7 +18,7 @@
 }
 .hero-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 90px;
 }
 .hero-section> div > h1{
@@ -28,19 +27,18 @@
     font-size: 45px;
 
 }
-
 .client{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .member{
-    text-align: center;
-    padding: 16px;
-    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.member >p{
+.member > p{
     font-weight: bolder;
     font-size: 20px;
     margin-bottom: 0;
@@ -50,7 +48,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .footer-sider{
-    background-color: #9361bf;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
@@ -78,7 +75,7 @@ input::placeholder{
     align-items: center;
     gap: 20px
 }
-.section3 {
+.section3{
     display: flex;
     gap: 40px;
     padding: 10%;
@@ -92,7 +89,6 @@ input::placeholder{
     gap: 20%;
 
 }
-
 .section2{
     display: flex;
     gap: 40px;
